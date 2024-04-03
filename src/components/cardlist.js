@@ -41,8 +41,8 @@ function CardList({ cart, updateCart }) {
                 integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
                 crossorigin="anonymous"
             />
-            <div>
-            <input type="text" value={query} onChange={(e) => filter(e)} />
+            <div style={{marginBottom: "20px", marginTop: "20px", marginLeft: "auto", marginRight: "auto", width: "800px"}}>
+            <input style={{width: "100%"}}type="text" placeholder='Search by name or category...' value={query} onChange={(e) => filter(e)} />
             </div>
             
             <div style={{ display: 'flex', flexWrap: 'wrap'}}>
